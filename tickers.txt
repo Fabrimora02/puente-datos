@@ -1,0 +1,60 @@
+# PUENTE DE DATOS — lista COMPLETA de activos a descargar
+# Una línea por ticker, en formato Yahoo Finance.
+# Las líneas que empiezan por # son comentarios y se ignoran.
+# Editar desde la web de GitHub (icono lápiz) → Commit. Nada más.
+
+# ============ POSICIONES Y ANÁLISIS ACTIVOS ============
+SM
+CVE
+BTC-USD
+
+# ============ ÍNDICES / CONTEXTO DE MERCADO (Nivel 1 del Pipeline) ============
+^GSPC
+# ^GSPC = S&P 500
+^IXIC
+# ^IXIC = Nasdaq Composite
+^VIX
+# ^VIX = índice de volatilidad (bloqueos del Nivel 1)
+^IBEX
+# ^IBEX = IBEX 35, contexto España
+^STOXX50E
+# ^STOXX50E = Euro Stoxx 50, contexto Europa
+
+# ============ FOREX Y DÓLAR (correlación Satélite) ============
+DX-Y.NYB
+# DX-Y.NYB = índice dólar DXY
+EURUSD=X
+# EURUSD=X = euro/dólar
+
+# ============ MATERIAS PRIMAS (futuros, bloque Satélite) ============
+GC=F
+# GC=F = oro
+SI=F
+# SI=F = plata
+CL=F
+# CL=F = petróleo WTI
+
+# ============ NIVEL 3 DEL PIPELINE — SECTORES (SPDR) Y REGIONES ============
+# Con estas series Claude calcula Mansfield y coordenadas RRG cada semana.
+XLE
+XLK
+XLI
+XLF
+XLV
+XLB
+XLY
+XLP
+XLU
+XLC
+XLRE
+SPY
+# Regiones (ETFs USA):
+VGK
+EWP
+EEM
+
+# ============ EJEMPLOS EUROPEOS (descomenta quitando el # cuando los necesites) ============
+# ITX.MC
+# SAN.MC
+# SIE.DE
+# TTE.PA

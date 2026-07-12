@@ -1,0 +1,60 @@
+# PUENTE DE DATOS — GitHub Action
+# ================================
+# Este archivo le dice a GitHub: "ejecuta el script de descarga solo,
+# cada 30 minutos en horario de mercado, y guarda los resultados en el repo".
+#
+# UBICACIÓN OBLIGATORIA: debe vivir en  .github/workflows/actualizar-datos.yml
+# (GitHub solo mira esa carpeta exacta).
+
+name: Actualizar datos de mercado
+
+on:
+  # 'schedule' = ejecución automática por reloj. La sintaxis es "cron" y va SIEMPRE en UTC.
+  # "*/30 6-22 * * 1-5" significa: cada 30 min, entre las 06:00 y las 22:59 UTC,
+  # de lunes (1) a viernes (5). Cubre la sesión europea y la americana enteras.
+  # Cripto cotiza 24/7, pero con esto tiene actualización de sobra en horas útiles.
+  schedule:
+    - cron: "*/30 6-22 * * 1-5"
+    # Segunda regla: fines de semana cada 2 horas — la cripto cotiza 24/7
+    # y así BTC-USD (y lo que añadas) no se queda congelado sábado y domingo.
+    - cron: "0 */2 * * 6,0"
+
+  # 'workflow_dispatch' añade un botón "Run workflow" en la web de GitHub
+  # para lanzarlo a mano cuando quieras (fines de semana incluidos).
+  workflow_dispatch:
+
+# Permiso para que la Action pueda hacer commit de los JSON al propio repo.
+permissions:
+  contents: write
+
+jobs:
+  descargar:
+    runs-on: ubuntu-latest   # GitHub presta una máquina Linux limpia para cada ejecución
+    steps:
+      # Paso 1: clonar el repositorio dentro de esa máquina
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      # Paso 2: instalar Python
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Paso 3: instalar la librería yfinance (y pandas, que viene con ella)
+      - name: Instalar dependencias
+        run: pip install yfinance
+
+      # Paso 4: ejecutar nuestro script
+      - name: Ejecutar descarga
+        run: python descargar_datos.py
+
+      # Paso 5: si hay archivos nuevos o cambiados en datos/, hacer commit y push.
+      # El '|| exit 0' evita que la Action "falle" cuando no hay nada nuevo que subir.
+      - name: Guardar los datos en el repositorio
+        run: |
+          git config user.name "puente-datos-bot"
+          git config user.email "bot@puente-datos"
+          git add datos/
+          git commit -m "Datos actualizados $(date -u +'%Y-%m-%d %H:%M UTC')" || exit 0
+          git push

@@ -26,9 +26,11 @@ import yfinance as yf
 # Yahoo limita el intradía: las velas de 15m solo existen para los últimos ~60 días.
 # Además no necesitamos archivos gigantes: para operar basta el tramo reciente.
 INTERVALOS = {
-    "15m": "5d",    # velas de 15 min, últimos 5 días  (~130 velas por activo)
-    "1h":  "1mo",   # velas de 1 hora, último mes      (~150 velas)
-    "1d":  "6mo",   # velas diarias, últimos 6 meses   (~128 velas)
+    "15m": "5d",
+    "1h":  "1mo",
+    "1d":  "6mo",
+    "1wk": "5y",    # NUEVO: semanal, 5 años — el tablero
+    "1mo": "max",   # NUEVO: mensual, todo el histórico — el superciclo
 }
 
 # Path(__file__).parent = "la carpeta donde vive este script".

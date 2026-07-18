@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-07-18T15:32:51.867641+00:00",
+  "generado_utc": "2026-07-18T19:55:44.799118+00:00",
   "total_archivos": 140,
   "fallos": 0,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-07-18T15:30:00+00:00",
-      "n_velas": 447
+      "ultima_vela": "2026-07-18T19:45:00+00:00",
+      "n_velas": 464
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-07-18T15:00:00+00:00",
+      "ultima_vela": "2026-07-18T19:00:00+00:00",
       "n_velas": 721
     },
     {

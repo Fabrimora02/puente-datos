@@ -58,3 +58,4 @@ EEM
 # SAN.MC
 # SIE.DE
 # TTE.PA
+NG=F

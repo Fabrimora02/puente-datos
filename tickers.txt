@@ -62,3 +62,5 @@ NG=F
 # ============ EN EVALUACIÓN — SCAN SECTORIAL (Utilities/Energy) ============
 EXC
 GPRE
+# ============ EN EVALUACIÓN — SCAN SECTORIAL EU (Minería) ============
+AAL.L

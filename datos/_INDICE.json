@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-07-26T15:48:08.803481+00:00",
+  "generado_utc": "2026-07-26T20:16:47.830726+00:00",
   "total_archivos": 160,
   "fallos": 0,
   "archivos": [
@@ -77,15 +77,15 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-07-26T15:45:00+00:00",
-      "n_velas": 448
+      "ultima_vela": "2026-07-26T20:15:00+00:00",
+      "n_velas": 466
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-07-26T15:00:00+00:00",
-      "n_velas": 721
+      "ultima_vela": "2026-07-26T20:00:00+00:00",
+      "n_velas": 700
     },
     {
       "archivo": "BTC-USD_1d.json",
@@ -295,14 +295,14 @@
       "ticker": "DX-Y.NYB",
       "intervalo": "1h",
       "ultima_vela": "2026-07-24T16:00:00-04:00",
-      "n_velas": 465
+      "n_velas": 460
     },
     {
       "archivo": "DX-Y-NYB_1d.json",
       "ticker": "DX-Y.NYB",
       "intervalo": "1d",
-      "ultima_vela": "2026-07-24T00:00:00-04:00",
-      "n_velas": 125
+      "ultima_vela": "2026-07-23T00:00:00-04:00",
+      "n_velas": 124
     },
     {
       "archivo": "DX-Y-NYB_1wk.json",
@@ -365,7 +365,7 @@
       "ticker": "GC=F",
       "intervalo": "1h",
       "ultima_vela": "2026-07-24T16:00:00-04:00",
-      "n_velas": 449
+      "n_velas": 444
     },
     {
       "archivo": "GC-F_1d.json",
@@ -400,7 +400,7 @@
       "ticker": "SI=F",
       "intervalo": "1h",
       "ultima_vela": "2026-07-24T16:00:00-04:00",
-      "n_velas": 449
+      "n_velas": 444
     },
     {
       "archivo": "SI-F_1d.json",
@@ -435,7 +435,7 @@
       "ticker": "CL=F",
       "intervalo": "1h",
       "ultima_vela": "2026-07-24T16:00:00-04:00",
-      "n_velas": 449
+      "n_velas": 444
     },
     {
       "archivo": "CL-F_1d.json",
@@ -995,7 +995,7 @@
       "ticker": "NG=F",
       "intervalo": "1h",
       "ultima_vela": "2026-07-24T16:00:00-04:00",
-      "n_velas": 449
+      "n_velas": 444
     },
     {
       "archivo": "NG-F_1d.json",

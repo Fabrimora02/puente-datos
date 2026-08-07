@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-08-07T09:36:56.672792+00:00",
+  "generado_utc": "2026-08-07T12:30:52.228224+00:00",
   "total_archivos": 160,
   "fallos": 0,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T09:30:00+00:00",
-      "n_velas": 423
+      "ultima_vela": "2026-08-07T12:15:00+00:00",
+      "n_velas": 434
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T09:00:00+00:00",
+      "ultima_vela": "2026-08-07T12:00:00+00:00",
       "n_velas": 724
     },
     {
@@ -182,14 +182,14 @@
       "archivo": "VIX_15m.json",
       "ticker": "^VIX",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T04:15:00-05:00",
-      "n_velas": 217
+      "ultima_vela": "2026-08-07T07:15:00-05:00",
+      "n_velas": 229
     },
     {
       "archivo": "VIX_1h.json",
       "ticker": "^VIX",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T04:00:00-05:00",
+      "ultima_vela": "2026-08-07T07:00:00-05:00",
       "n_velas": 323
     },
     {
@@ -217,14 +217,14 @@
       "archivo": "IBEX_15m.json",
       "ticker": "^IBEX",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T11:15:00+02:00",
-      "n_velas": 146
+      "ultima_vela": "2026-08-07T14:15:00+02:00",
+      "n_velas": 158
     },
     {
       "archivo": "IBEX_1h.json",
       "ticker": "^IBEX",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T11:00:00+02:00",
+      "ultima_vela": "2026-08-07T14:00:00+02:00",
       "n_velas": 208
     },
     {
@@ -252,14 +252,14 @@
       "archivo": "STOXX50E_15m.json",
       "ticker": "^STOXX50E",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T11:15:00+02:00",
-      "n_velas": 146
+      "ultima_vela": "2026-08-07T14:15:00+02:00",
+      "n_velas": 158
     },
     {
       "archivo": "STOXX50E_1h.json",
       "ticker": "^STOXX50E",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T11:00:00+02:00",
+      "ultima_vela": "2026-08-07T14:00:00+02:00",
       "n_velas": 208
     },
     {
@@ -287,14 +287,14 @@
       "archivo": "DX-Y-NYB_15m.json",
       "ticker": "DX-Y.NYB",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T05:15:00-04:00",
-      "n_velas": 384
+      "ultima_vela": "2026-08-07T08:15:00-04:00",
+      "n_velas": 396
     },
     {
       "archivo": "DX-Y-NYB_1h.json",
       "ticker": "DX-Y.NYB",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T05:00:00-04:00",
+      "ultima_vela": "2026-08-07T08:00:00-04:00",
       "n_velas": 549
     },
     {
@@ -322,14 +322,14 @@
       "archivo": "EURUSD-X_15m.json",
       "ticker": "EURUSD=X",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T10:30:00+01:00",
-      "n_velas": 427
+      "ultima_vela": "2026-08-07T13:15:00+01:00",
+      "n_velas": 438
     },
     {
       "archivo": "EURUSD-X_1h.json",
       "ticker": "EURUSD=X",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T10:00:00+01:00",
+      "ultima_vela": "2026-08-07T13:00:00+01:00",
       "n_velas": 549
     },
     {
@@ -357,14 +357,14 @@
       "archivo": "GC-F_15m.json",
       "ticker": "GC=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T05:15:00-04:00",
-      "n_velas": 390
+      "ultima_vela": "2026-08-07T08:15:00-04:00",
+      "n_velas": 402
     },
     {
       "archivo": "GC-F_1h.json",
       "ticker": "GC=F",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T05:00:00-04:00",
+      "ultima_vela": "2026-08-07T08:00:00-04:00",
       "n_velas": 530
     },
     {
@@ -392,14 +392,14 @@
       "archivo": "SI-F_15m.json",
       "ticker": "SI=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T05:15:00-04:00",
-      "n_velas": 390
+      "ultima_vela": "2026-08-07T08:15:00-04:00",
+      "n_velas": 402
     },
     {
       "archivo": "SI-F_1h.json",
       "ticker": "SI=F",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T05:00:00-04:00",
+      "ultima_vela": "2026-08-07T08:00:00-04:00",
       "n_velas": 530
     },
     {
@@ -427,14 +427,14 @@
       "archivo": "CL-F_15m.json",
       "ticker": "CL=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T05:15:00-04:00",
-      "n_velas": 391
+      "ultima_vela": "2026-08-07T08:15:00-04:00",
+      "n_velas": 403
     },
     {
       "archivo": "CL-F_1h.json",
       "ticker": "CL=F",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T05:00:00-04:00",
+      "ultima_vela": "2026-08-07T08:00:00-04:00",
       "n_velas": 531
     },
     {
@@ -987,14 +987,14 @@
       "archivo": "NG-F_15m.json",
       "ticker": "NG=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T05:15:00-04:00",
-      "n_velas": 391
+      "ultima_vela": "2026-08-07T08:15:00-04:00",
+      "n_velas": 403
     },
     {
       "archivo": "NG-F_1h.json",
       "ticker": "NG=F",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T05:00:00-04:00",
+      "ultima_vela": "2026-08-07T08:00:00-04:00",
       "n_velas": 531
     },
     {
@@ -1092,14 +1092,14 @@
       "archivo": "AAL-L_15m.json",
       "ticker": "AAL.L",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-07T10:15:00+01:00",
-      "n_velas": 146
+      "ultima_vela": "2026-08-07T13:15:00+01:00",
+      "n_velas": 158
     },
     {
       "archivo": "AAL-L_1h.json",
       "ticker": "AAL.L",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-07T10:00:00+01:00",
+      "ultima_vela": "2026-08-07T13:00:00+01:00",
       "n_velas": 208
     },
     {

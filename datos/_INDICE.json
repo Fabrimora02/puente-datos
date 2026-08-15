@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-08-15T10:27:39.814418+00:00",
+  "generado_utc": "2026-08-15T12:42:11.425083+00:00",
   "total_archivos": 2287,
   "fallos": 13,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-15T10:15:00+00:00",
-      "n_velas": 426
+      "ultima_vela": "2026-08-15T12:30:00+00:00",
+      "n_velas": 435
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-15T10:00:00+00:00",
+      "ultima_vela": "2026-08-15T12:00:00+00:00",
       "n_velas": 745
     },
     {
@@ -232,7 +232,7 @@
       "ticker": "^IBEX",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 124
+      "n_velas": 127
     },
     {
       "archivo": "IBEX_1wk.json",
@@ -330,7 +330,7 @@
       "ticker": "EURUSD=X",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T22:00:00+01:00",
-      "n_velas": 544
+      "n_velas": 547
     },
     {
       "archivo": "EURUSD-X_1d.json",
@@ -365,7 +365,7 @@
       "ticker": "GC=F",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00-04:00",
-      "n_velas": 521
+      "n_velas": 524
     },
     {
       "archivo": "GC-F_1d.json",
@@ -652,7 +652,7 @@
       "ticker": "XLB",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "XLB_1wk.json",
@@ -687,7 +687,7 @@
       "ticker": "XLY",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "XLY_1wk.json",
@@ -792,7 +792,7 @@
       "ticker": "XLC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "XLC_1wk.json",
@@ -827,7 +827,7 @@
       "ticker": "XLRE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "XLRE_1wk.json",
@@ -932,7 +932,7 @@
       "ticker": "EWP",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "EWP_1wk.json",
@@ -967,7 +967,7 @@
       "ticker": "EEM",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "EEM_1wk.json",
@@ -1037,7 +1037,7 @@
       "ticker": "EXC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 124
+      "n_velas": 125
     },
     {
       "archivo": "EXC_1wk.json",
@@ -1527,7 +1527,7 @@
       "ticker": "LNT",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "LNT_1wk.json",
@@ -1632,7 +1632,7 @@
       "ticker": "AEE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 122
+      "n_velas": 125
     },
     {
       "archivo": "AEE_1wk.json",
@@ -1667,7 +1667,7 @@
       "ticker": "AEP",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 124
+      "n_velas": 125
     },
     {
       "archivo": "AEP_1wk.json",
@@ -1772,7 +1772,7 @@
       "ticker": "AWK",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "AWK_1wk.json",
@@ -1877,7 +1877,7 @@
       "ticker": "APO",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "APO_1wk.json",
@@ -1912,7 +1912,7 @@
       "ticker": "ACGL",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "ACGL_1wk.json",
@@ -1947,7 +1947,7 @@
       "ticker": "ADM",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "ADM_1wk.json",
@@ -2332,7 +2332,7 @@
       "ticker": "BDX",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "BDX_1wk.json",
@@ -2507,7 +2507,7 @@
       "ticker": "BNY",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 124
+      "n_velas": 125
     },
     {
       "archivo": "BNY_1wk.json",
@@ -2612,7 +2612,7 @@
       "ticker": "BR",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "BR_1wk.json",
@@ -2682,7 +2682,7 @@
       "ticker": "BG",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "BG_1wk.json",
@@ -2927,7 +2927,7 @@
       "ticker": "CBRE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "CBRE_1wk.json",
@@ -2962,7 +2962,7 @@
       "ticker": "CDW",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 122
+      "n_velas": 125
     },
     {
       "archivo": "CDW_1wk.json",
@@ -3067,7 +3067,7 @@
       "ticker": "CF",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "CF_1wk.json",
@@ -3102,7 +3102,7 @@
       "ticker": "SCHW",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 124
+      "n_velas": 125
     },
     {
       "archivo": "SCHW_1wk.json",
@@ -3382,7 +3382,7 @@
       "ticker": "CFG",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "CFG_1wk.json",
@@ -3417,7 +3417,7 @@
       "ticker": "CLX",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "CLX_1wk.json",
@@ -3452,7 +3452,7 @@
       "ticker": "CMS",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "CMS_1wk.json",
@@ -3522,7 +3522,7 @@
       "ticker": "CTSH",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "CTSH_1wk.json",
@@ -3592,7 +3592,7 @@
       "ticker": "CL",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "CL_1wk.json",
@@ -3697,7 +3697,7 @@
       "ticker": "ED",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "ED_1wk.json",
@@ -3907,7 +3907,7 @@
       "ticker": "CSGP",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "CSGP_1wk.json",
@@ -4467,7 +4467,7 @@
       "ticker": "DHI",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "DHI_1wk.json",
@@ -4502,7 +4502,7 @@
       "ticker": "DTE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "DTE_1wk.json",
@@ -4537,7 +4537,7 @@
       "ticker": "DUK",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "DUK_1wk.json",
@@ -4572,7 +4572,7 @@
       "ticker": "DD",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "DD_1wk.json",
@@ -4677,7 +4677,7 @@
       "ticker": "EIX",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "EIX_1wk.json",
@@ -4712,7 +4712,7 @@
       "ticker": "EW",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "EW_1wk.json",
@@ -4782,7 +4782,7 @@
       "ticker": "ETR",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "ETR_1wk.json",
@@ -5132,7 +5132,7 @@
       "ticker": "EXPD",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 122
+      "n_velas": 125
     },
     {
       "archivo": "EXPD_1wk.json",
@@ -5237,7 +5237,7 @@
       "ticker": "FAST",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "FAST_1wk.json",
@@ -5272,7 +5272,7 @@
       "ticker": "FDXF",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 56
+      "n_velas": 54
     },
     {
       "archivo": "FDXF_1wk.json",
@@ -5307,7 +5307,7 @@
       "ticker": "FIS",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "FIS_1wk.json",
@@ -5342,7 +5342,7 @@
       "ticker": "FITB",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "FITB_1wk.json",
@@ -5377,7 +5377,7 @@
       "ticker": "FE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "FE_1wk.json",
@@ -5552,7 +5552,7 @@
       "ticker": "FTV",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "FTV_1wk.json",
@@ -5587,7 +5587,7 @@
       "ticker": "FOXA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "FOXA_1wk.json",
@@ -5797,7 +5797,7 @@
       "ticker": "GEN",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "GEN_1wk.json",
@@ -5902,7 +5902,7 @@
       "ticker": "GPC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "GPC_1wk.json",
@@ -6007,7 +6007,7 @@
       "ticker": "GL",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "GL_1wk.json",
@@ -6042,7 +6042,7 @@
       "ticker": "GDDY",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "GDDY_1wk.json",
@@ -6427,7 +6427,7 @@
       "ticker": "HBAN",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 124
+      "n_velas": 125
     },
     {
       "archivo": "HBAN_1wk.json",
@@ -6497,7 +6497,7 @@
       "ticker": "IR",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "IR_1wk.json",
@@ -6672,7 +6672,7 @@
       "ticker": "IP",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "IP_1wk.json",
@@ -6707,7 +6707,7 @@
       "ticker": "IVZ",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "IVZ_1wk.json",
@@ -6777,7 +6777,7 @@
       "ticker": "IRM",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "IRM_1wk.json",
@@ -7022,7 +7022,7 @@
       "ticker": "KMB",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "KMB_1wk.json",
@@ -7057,7 +7057,7 @@
       "ticker": "KIM",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "KIM_1wk.json",
@@ -7302,7 +7302,7 @@
       "ticker": "LDOS",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "LDOS_1wk.json",
@@ -7372,7 +7372,7 @@
       "ticker": "LYV",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "LYV_1wk.json",
@@ -7407,7 +7407,7 @@
       "ticker": "L",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "L_1wk.json",
@@ -7792,7 +7792,7 @@
       "ticker": "MAA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 122
+      "n_velas": 125
     },
     {
       "archivo": "MAA_1wk.json",
@@ -7897,7 +7897,7 @@
       "ticker": "MNST",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 124
     },
     {
       "archivo": "MNST_1wk.json",
@@ -8177,7 +8177,7 @@
       "ticker": "NTRS",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "NTRS_1wk.json",
@@ -8247,7 +8247,7 @@
       "ticker": "ORLY",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "ORLY_1wk.json",
@@ -8387,7 +8387,7 @@
       "ticker": "OKE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "OKE_1wk.json",
@@ -8492,7 +8492,7 @@
       "ticker": "PCAR",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 124
+      "n_velas": 125
     },
     {
       "archivo": "PCAR_1wk.json",
@@ -8562,7 +8562,7 @@
       "ticker": "PAYX",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "PAYX_1wk.json",
@@ -8737,7 +8737,7 @@
       "ticker": "PCG",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 124
+      "n_velas": 125
     },
     {
       "archivo": "PCG_1wk.json",
@@ -9087,7 +9087,7 @@
       "ticker": "PTC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "PTC_1wk.json",
@@ -9227,7 +9227,7 @@
       "ticker": "RJF",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "RJF_1wk.json",
@@ -9367,7 +9367,7 @@
       "ticker": "RVTY",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "RVTY_1wk.json",
@@ -9577,7 +9577,7 @@
       "ticker": "SRE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "SRE_1wk.json",
@@ -9752,7 +9752,7 @@
       "ticker": "SOLV",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "SOLV_1wk.json",
@@ -9787,7 +9787,7 @@
       "ticker": "SO",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "SO_1wk.json",
@@ -9822,7 +9822,7 @@
       "ticker": "LUV",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "LUV_1wk.json",
@@ -9927,7 +9927,7 @@
       "ticker": "STT",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "STT_1wk.json",
@@ -10032,7 +10032,7 @@
       "ticker": "SYY",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "SYY_1wk.json",
@@ -10102,7 +10102,7 @@
       "ticker": "TROW",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 122
+      "n_velas": 125
     },
     {
       "archivo": "TROW_1wk.json",
@@ -10242,7 +10242,7 @@
       "ticker": "TJX",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "TJX_1wk.json",
@@ -10277,7 +10277,7 @@
       "ticker": "TKO",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 122
+      "n_velas": 125
     },
     {
       "archivo": "TKO_1wk.json",
@@ -10312,7 +10312,7 @@
       "ticker": "TSCO",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "TSCO_1wk.json",
@@ -10382,7 +10382,7 @@
       "ticker": "TFC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "TFC_1wk.json",
@@ -10522,7 +10522,7 @@
       "ticker": "UDR",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "UDR_1wk.json",
@@ -10907,7 +10907,7 @@
       "ticker": "WRB",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 123
+      "n_velas": 125
     },
     {
       "archivo": "WRB_1wk.json",
@@ -11152,7 +11152,7 @@
       "ticker": "WMB",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 124
+      "n_velas": 125
     },
     {
       "archivo": "WMB_1wk.json",
@@ -11222,7 +11222,7 @@
       "ticker": "WYNN",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "WYNN_1wk.json",
@@ -11257,7 +11257,7 @@
       "ticker": "XEL",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "XEL_1wk.json",
@@ -11397,7 +11397,7 @@
       "ticker": "ZTS",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 124
     },
     {
       "archivo": "ZTS_1wk.json",
@@ -11467,7 +11467,7 @@
       "ticker": "ARE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 122
+      "n_velas": 125
     },
     {
       "archivo": "ARE_1wk.json",
@@ -11572,7 +11572,7 @@
       "ticker": "FDS",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 122
+      "n_velas": 125
     },
     {
       "archivo": "FDS_1wk.json",
@@ -11607,7 +11607,7 @@
       "ticker": "FRT",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 122
     },
     {
       "archivo": "FRT_1wk.json",
@@ -11782,7 +11782,7 @@
       "ticker": "NWSA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00-04:00",
-      "n_velas": 125
+      "n_velas": 123
     },
     {
       "archivo": "NWSA_1wk.json",
@@ -12020,14 +12020,14 @@
       "ticker": "IBE.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "IBE-MC_1d.json",
       "ticker": "IBE.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "IBE-MC_1wk.json",
@@ -12055,14 +12055,14 @@
       "ticker": "ITX.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "ITX-MC_1d.json",
       "ticker": "ITX.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 124
+      "n_velas": 127
     },
     {
       "archivo": "ITX-MC_1wk.json",
@@ -12090,28 +12090,28 @@
       "ticker": "TEF.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 90
     },
     {
       "archivo": "TEF-MC_1d.json",
       "ticker": "TEF.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 10
     },
     {
       "archivo": "TEF-MC_1wk.json",
       "ticker": "TEF.MC",
       "intervalo": "1wk",
       "ultima_vela": "2026-08-10T00:00:00+02:00",
-      "n_velas": 261
+      "n_velas": 2
     },
     {
       "archivo": "TEF-MC_1mo.json",
       "ticker": "TEF.MC",
       "intervalo": "1mo",
       "ultima_vela": "2026-08-01T00:00:00+02:00",
-      "n_velas": 320
+      "n_velas": 1
     },
     {
       "archivo": "REP-MC_15m.json",
@@ -12230,14 +12230,14 @@
       "ticker": "AENA.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 206
+      "n_velas": 207
     },
     {
       "archivo": "AENA-MC_1d.json",
       "ticker": "AENA.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "AENA-MC_1wk.json",
@@ -12265,28 +12265,28 @@
       "ticker": "CLNX.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 90
     },
     {
       "archivo": "CLNX-MC_1d.json",
       "ticker": "CLNX.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 10
     },
     {
       "archivo": "CLNX-MC_1wk.json",
       "ticker": "CLNX.MC",
       "intervalo": "1wk",
       "ultima_vela": "2026-08-10T00:00:00+02:00",
-      "n_velas": 261
+      "n_velas": 2
     },
     {
       "archivo": "CLNX-MC_1mo.json",
       "ticker": "CLNX.MC",
       "intervalo": "1mo",
       "ultima_vela": "2026-08-01T00:00:00+02:00",
-      "n_velas": 136
+      "n_velas": 1
     },
     {
       "archivo": "ELE-MC_15m.json",
@@ -12335,7 +12335,7 @@
       "ticker": "ENG.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "ENG-MC_1d.json",
@@ -12377,7 +12377,7 @@
       "ticker": "NTGY.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "NTGY-MC_1wk.json",
@@ -12510,14 +12510,14 @@
       "ticker": "MTS.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "MTS-MC_1d.json",
       "ticker": "MTS.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "MTS-MC_1wk.json",
@@ -12587,7 +12587,7 @@
       "ticker": "SAB.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 124
     },
     {
       "archivo": "SAB-MC_1wk.json",
@@ -12657,7 +12657,7 @@
       "ticker": "UNI.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "UNI-MC_1wk.json",
@@ -12720,14 +12720,14 @@
       "ticker": "GRF.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "GRF-MC_1d.json",
       "ticker": "GRF.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "GRF-MC_1wk.json",
@@ -12755,28 +12755,28 @@
       "ticker": "ANA.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 90
+      "n_velas": 206
     },
     {
       "archivo": "ANA-MC_1d.json",
       "ticker": "ANA.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 10
+      "n_velas": 125
     },
     {
       "archivo": "ANA-MC_1wk.json",
       "ticker": "ANA.MC",
       "intervalo": "1wk",
       "ultima_vela": "2026-08-10T00:00:00+02:00",
-      "n_velas": 2
+      "n_velas": 261
     },
     {
       "archivo": "ANA-MC_1mo.json",
       "ticker": "ANA.MC",
       "intervalo": "1mo",
       "ultima_vela": "2026-08-01T00:00:00+02:00",
-      "n_velas": 1
+      "n_velas": 320
     },
     {
       "archivo": "COL-MC_15m.json",
@@ -12930,14 +12930,14 @@
       "ticker": "MEL.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "MEL-MC_1d.json",
       "ticker": "MEL.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "MEL-MC_1wk.json",
@@ -13000,28 +13000,28 @@
       "ticker": "ANE.MC",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 90
+      "n_velas": 206
     },
     {
       "archivo": "ANE-MC_1d.json",
       "ticker": "ANE.MC",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 10
+      "n_velas": 125
     },
     {
       "archivo": "ANE-MC_1wk.json",
       "ticker": "ANE.MC",
       "intervalo": "1wk",
       "ultima_vela": "2026-08-10T00:00:00+02:00",
-      "n_velas": 2
+      "n_velas": 261
     },
     {
       "archivo": "ANE-MC_1mo.json",
       "ticker": "ANE.MC",
       "intervalo": "1mo",
       "ultima_vela": "2026-08-01T00:00:00+02:00",
-      "n_velas": 1
+      "n_velas": 62
     },
     {
       "archivo": "SLR-MC_15m.json",
@@ -13182,7 +13182,7 @@
       "ticker": "SIE.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "SIE-DE_1wk.json",
@@ -13217,7 +13217,7 @@
       "ticker": "ALV.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "ALV-DE_1wk.json",
@@ -13287,7 +13287,7 @@
       "ticker": "MUV2.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "MUV2-DE_1wk.json",
@@ -13392,7 +13392,7 @@
       "ticker": "BMW.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "BMW-DE_1wk.json",
@@ -13455,7 +13455,7 @@
       "ticker": "VOW3.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "VOW3-DE_1d.json",
@@ -13490,14 +13490,14 @@
       "ticker": "DBK.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "DBK-DE_1d.json",
       "ticker": "DBK.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "DBK-DE_1wk.json",
@@ -13532,7 +13532,7 @@
       "ticker": "CBK.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "CBK-DE_1wk.json",
@@ -13567,7 +13567,7 @@
       "ticker": "DHL.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "DHL-DE_1wk.json",
@@ -13707,7 +13707,7 @@
       "ticker": "ADS.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "ADS-DE_1wk.json",
@@ -13735,14 +13735,14 @@
       "ticker": "HEN3.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "HEN3-DE_1d.json",
       "ticker": "HEN3.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "HEN3-DE_1wk.json",
@@ -13805,14 +13805,14 @@
       "ticker": "CON.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "CON-DE_1d.json",
       "ticker": "CON.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "CON-DE_1wk.json",
@@ -13840,14 +13840,14 @@
       "ticker": "HEI.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "HEI-DE_1d.json",
       "ticker": "HEI.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "HEI-DE_1wk.json",
@@ -13910,14 +13910,14 @@
       "ticker": "FRE.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "FRE-DE_1d.json",
       "ticker": "FRE.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "FRE-DE_1wk.json",
@@ -13952,7 +13952,7 @@
       "ticker": "RHM.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "RHM-DE_1wk.json",
@@ -13980,14 +13980,14 @@
       "ticker": "ZAL.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "ZAL-DE_1d.json",
       "ticker": "ZAL.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "ZAL-DE_1wk.json",
@@ -14015,7 +14015,7 @@
       "ticker": "SY1.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "SY1-DE_1d.json",
@@ -14050,14 +14050,14 @@
       "ticker": "SHL.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "SHL-DE_1d.json",
       "ticker": "SHL.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "SHL-DE_1wk.json",
@@ -14134,14 +14134,14 @@
       "ticker": "P911.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "P911-DE_1d.json",
       "ticker": "P911.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "P911-DE_1wk.json",
@@ -14169,14 +14169,14 @@
       "ticker": "PAH3.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "PAH3-DE_1d.json",
       "ticker": "PAH3.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "PAH3-DE_1wk.json",
@@ -14204,7 +14204,7 @@
       "ticker": "BNR.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 206
     },
     {
       "archivo": "BNR-DE_1d.json",
@@ -14239,7 +14239,7 @@
       "ticker": "MTX.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "MTX-DE_1d.json",
@@ -14274,7 +14274,7 @@
       "ticker": "HNR1.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "HNR1-DE_1d.json",
@@ -14309,7 +14309,7 @@
       "ticker": "ENR.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "ENR-DE_1d.json",
@@ -14344,7 +14344,7 @@
       "ticker": "TTE.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "TTE-PA_1d.json",
@@ -14449,7 +14449,7 @@
       "ticker": "ACA.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "ACA-PA_1d.json",
@@ -14484,7 +14484,7 @@
       "ticker": "GLE.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "GLE-PA_1d.json",
@@ -14526,7 +14526,7 @@
       "ticker": "AI.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "AI-PA_1wk.json",
@@ -14554,14 +14554,14 @@
       "ticker": "SU.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "SU-PA_1d.json",
       "ticker": "SU.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "SU-PA_1wk.json",
@@ -14631,7 +14631,7 @@
       "ticker": "DG.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "DG-PA_1wk.json",
@@ -14701,7 +14701,7 @@
       "ticker": "VIE.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "VIE-PA_1wk.json",
@@ -14729,7 +14729,7 @@
       "ticker": "ENGI.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "ENGI-PA_1d.json",
@@ -14764,7 +14764,7 @@
       "ticker": "ORA.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "ORA-PA_1d.json",
@@ -14806,7 +14806,7 @@
       "ticker": "CA.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "CA-PA_1wk.json",
@@ -14834,7 +14834,7 @@
       "ticker": "ML.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "ML-PA_1d.json",
@@ -14939,14 +14939,14 @@
       "ticker": "SAF.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "SAF-PA_1d.json",
       "ticker": "SAF.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "SAF-PA_1wk.json",
@@ -14981,7 +14981,7 @@
       "ticker": "HO.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "HO-PA_1wk.json",
@@ -15044,7 +15044,7 @@
       "ticker": "BN.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "BN-PA_1d.json",
@@ -15079,14 +15079,14 @@
       "ticker": "RI.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "RI-PA_1d.json",
       "ticker": "RI.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "RI-PA_1wk.json",
@@ -15114,14 +15114,14 @@
       "ticker": "KER.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "KER-PA_1d.json",
       "ticker": "KER.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "KER-PA_1wk.json",
@@ -15184,7 +15184,7 @@
       "ticker": "LR.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "LR-PA_1d.json",
@@ -15219,14 +15219,14 @@
       "ticker": "PUB.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "PUB-PA_1d.json",
       "ticker": "PUB.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "PUB-PA_1wk.json",
@@ -15254,14 +15254,14 @@
       "ticker": "VIV.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "VIV-PA_1d.json",
       "ticker": "VIV.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "VIV-PA_1wk.json",
@@ -15296,7 +15296,7 @@
       "ticker": "TEP.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "TEP-PA_1wk.json",
@@ -15366,7 +15366,7 @@
       "ticker": "URW.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 125
     },
     {
       "archivo": "URW-PA_1wk.json",
@@ -15394,7 +15394,7 @@
       "ticker": "GTT.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "GTT-PA_1d.json",
@@ -15464,7 +15464,7 @@
       "ticker": "ERF.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 207
+      "n_velas": 205
     },
     {
       "archivo": "ERF-PA_1d.json",
@@ -15534,14 +15534,14 @@
       "ticker": "STMPA.PA",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 205
+      "n_velas": 207
     },
     {
       "archivo": "STMPA-PA_1d.json",
       "ticker": "STMPA.PA",
       "intervalo": "1d",
       "ultima_vela": "2026-08-14T00:00:00+02:00",
-      "n_velas": 125
+      "n_velas": 127
     },
     {
       "archivo": "STMPA-PA_1wk.json",
@@ -15639,7 +15639,7 @@
       "ticker": "EXH1.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 206
+      "n_velas": 204
     },
     {
       "archivo": "EXH1-DE_1d.json",
@@ -15674,7 +15674,7 @@
       "ticker": "EXV3.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 195
+      "n_velas": 197
     },
     {
       "archivo": "EXV3-DE_1d.json",
@@ -15884,7 +15884,7 @@
       "ticker": "EXH3.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 193
+      "n_velas": 192
     },
     {
       "archivo": "EXH3-DE_1d.json",
@@ -15919,7 +15919,7 @@
       "ticker": "EXV8.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 200
+      "n_velas": 202
     },
     {
       "archivo": "EXV8-DE_1d.json",
@@ -15989,7 +15989,7 @@
       "ticker": "EXV5.DE",
       "intervalo": "1h",
       "ultima_vela": "2026-08-14T17:00:00+02:00",
-      "n_velas": 190
+      "n_velas": 191
     },
     {
       "archivo": "EXV5-DE_1d.json",

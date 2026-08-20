@@ -103,6 +103,61 @@ def descargar_un_activo(ticker: str, intervalo: str, periodo: str) -> dict | Non
         print(f"  ERROR con {ticker} [{intervalo}]: {error}")
         return None
 
+def generar_calendario(tickers: list[str]) -> None:
+    """Genera _CALENDARIO.json con la próxima fecha de resultados de cada activo.
+
+    Se ejecuta UNA VEZ AL DÍA: si el archivo ya se generó hoy, no hace nada.
+    Motivo: las fechas de resultados no cambian cada 30 minutos, y pedir
+    445 calendarios en cada ciclo multiplicaría por 34 las llamadas a Yahoo.
+    """
+    ruta = CARPETA_DATOS / "_CALENDARIO.json"
+    hoy = datetime.now(timezone.utc).date().isoformat()
+
+    # ¿Ya lo generamos hoy? Entonces salimos sin gastar llamadas.
+    if ruta.exists():
+        try:
+            previo = json.loads(ruta.read_text(encoding="utf-8"))
+            if previo.get("generado_utc", "")[:10] == hoy:
+                print("Calendario: ya generado hoy, se omite.")
+                return
+        except Exception:
+            pass  # si el archivo está corrupto, lo regeneramos
+
+    print(f"Calendario: consultando fechas de resultados de {len(tickers)} activos...")
+    eventos = {}
+    for ticker in tickers:
+        try:
+            cal = yf.Ticker(ticker).calendar
+            fecha = None
+            # yfinance devuelve dict o DataFrame según versión y activo
+            if isinstance(cal, dict):
+                lista = cal.get("Earnings Date") or []
+                if lista:
+                    fecha = lista[0]
+            elif cal is not None and hasattr(cal, "empty") and not cal.empty:
+                if "Earnings Date" in cal.index:
+                    fecha = cal.loc["Earnings Date"][0]
+
+            if fecha is None:
+                continue  # índices, materias primas y divisas no tienen resultados
+
+            fecha_txt = fecha.isoformat()[:10]
+            dias = (datetime.fromisoformat(fecha_txt).date()
+                    - datetime.now(timezone.utc).date()).days
+            eventos[ticker] = {"proxima_fecha": fecha_txt, "dias_restantes": dias}
+
+        except Exception:
+            continue  # un fallo individual nunca rompe la ejecución
+
+    ruta.write_text(
+        json.dumps({
+            "generado_utc": datetime.now(timezone.utc).isoformat(),
+            "n_activos_con_fecha": len(eventos),
+            "eventos": eventos,
+        }, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    print(f"Calendario: {len(eventos)} activos con fecha de resultados.")
 
 def main():
     """Función principal: recorre todos los tickers y todos los intervalos."""
@@ -153,6 +208,7 @@ def main():
     (CARPETA_DATOS / "_INDICE.json").write_text(
         json.dumps(manifiesto, indent=2, ensure_ascii=False), encoding="utf-8"
     )
+    generar_calendario(tickers)
     print(f"\nResumen: {exitos} archivos escritos, {fallos} fallos. Índice actualizado.")
 
 

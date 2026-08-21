@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-08-21T20:32:12.263289+00:00",
+  "generado_utc": "2026-08-21T20:57:10.300277+00:00",
   "total_archivos": 2286,
   "fallos": 14,
   "archivos": [
@@ -77,8 +77,8 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-21T20:15:00+00:00",
-      "n_velas": 466
+      "ultima_vela": "2026-08-21T20:45:00+00:00",
+      "n_velas": 468
     },
     {
       "archivo": "BTC-USD_1h.json",
@@ -287,8 +287,8 @@
       "archivo": "DX-Y-NYB_15m.json",
       "ticker": "DX-Y.NYB",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-21T16:15:00-04:00",
-      "n_velas": 426
+      "ultima_vela": "2026-08-21T16:30:00-04:00",
+      "n_velas": 427
     },
     {
       "archivo": "DX-Y-NYB_1h.json",
@@ -322,8 +322,8 @@
       "archivo": "EURUSD-X_15m.json",
       "ticker": "EURUSD=X",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-21T21:15:00+01:00",
-      "n_velas": 470
+      "ultima_vela": "2026-08-21T21:45:00+01:00",
+      "n_velas": 472
     },
     {
       "archivo": "EURUSD-X_1h.json",
@@ -357,8 +357,8 @@
       "archivo": "GC-F_15m.json",
       "ticker": "GC=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-21T16:15:00-04:00",
-      "n_velas": 434
+      "ultima_vela": "2026-08-21T16:30:00-04:00",
+      "n_velas": 435
     },
     {
       "archivo": "GC-F_1h.json",
@@ -392,8 +392,8 @@
       "archivo": "SI-F_15m.json",
       "ticker": "SI=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-21T16:15:00-04:00",
-      "n_velas": 434
+      "ultima_vela": "2026-08-21T16:30:00-04:00",
+      "n_velas": 435
     },
     {
       "archivo": "SI-F_1h.json",
@@ -427,8 +427,8 @@
       "archivo": "CL-F_15m.json",
       "ticker": "CL=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-21T16:15:00-04:00",
-      "n_velas": 434
+      "ultima_vela": "2026-08-21T16:30:00-04:00",
+      "n_velas": 435
     },
     {
       "archivo": "CL-F_1h.json",
@@ -987,8 +987,8 @@
       "archivo": "NG-F_15m.json",
       "ticker": "NG=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-21T16:15:00-04:00",
-      "n_velas": 434
+      "ultima_vela": "2026-08-21T16:30:00-04:00",
+      "n_velas": 435
     },
     {
       "archivo": "NG-F_1h.json",

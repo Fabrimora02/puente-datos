@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-08-25T21:38:47.880045+00:00",
+  "generado_utc": "2026-08-25T22:00:32.198290+00:00",
   "total_archivos": 2285,
   "fallos": 15,
   "archivos": [
@@ -77,8 +77,8 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-25T21:15:00+00:00",
-      "n_velas": 470
+      "ultima_vela": "2026-08-25T21:45:00+00:00",
+      "n_velas": 472
     },
     {
       "archivo": "BTC-USD_1h.json",
@@ -287,8 +287,8 @@
       "archivo": "DX-Y-NYB_15m.json",
       "ticker": "DX-Y.NYB",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-25T17:15:00-04:00",
-      "n_velas": 342
+      "ultima_vela": "2026-08-25T17:45:00-04:00",
+      "n_velas": 344
     },
     {
       "archivo": "DX-Y-NYB_1h.json",
@@ -322,8 +322,8 @@
       "archivo": "EURUSD-X_15m.json",
       "ticker": "EURUSD=X",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-25T22:15:00+01:00",
-      "n_velas": 468
+      "ultima_vela": "2026-08-25T22:45:00+01:00",
+      "n_velas": 470
     },
     {
       "archivo": "EURUSD-X_1h.json",
@@ -14189,15 +14189,15 @@
       "archivo": "BNR-DE_1h.json",
       "ticker": "BNR.DE",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-25T17:00:00+02:00",
-      "n_velas": 198
+      "ultima_vela": "2026-08-24T17:00:00+02:00",
+      "n_velas": 189
     },
     {
       "archivo": "BNR-DE_1d.json",
       "ticker": "BNR.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-25T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 128
     },
     {
       "archivo": "BNR-DE_1wk.json",
@@ -14217,22 +14217,22 @@
       "archivo": "MTX-DE_15m.json",
       "ticker": "MTX.DE",
       "intervalo": "15m",
-      "ultima_vela": "2026-08-25T17:15:00+02:00",
+      "ultima_vela": "2026-08-24T17:15:00+02:00",
       "n_velas": 170
     },
     {
       "archivo": "MTX-DE_1h.json",
       "ticker": "MTX.DE",
       "intervalo": "1h",
-      "ultima_vela": "2026-08-25T17:00:00+02:00",
-      "n_velas": 198
+      "ultima_vela": "2026-08-24T17:00:00+02:00",
+      "n_velas": 189
     },
     {
       "archivo": "MTX-DE_1d.json",
       "ticker": "MTX.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-08-25T00:00:00+02:00",
-      "n_velas": 127
+      "n_velas": 128
     },
     {
       "archivo": "MTX-DE_1wk.json",

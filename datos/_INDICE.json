@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-09-07T20:52:31.512731+00:00",
+  "generado_utc": "2026-09-07T23:24:09.112498+00:00",
   "total_archivos": 2285,
   "fallos": 15,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-09-07T20:45:00+00:00",
-      "n_velas": 468
+      "ultima_vela": "2026-09-07T23:15:00+00:00",
+      "n_velas": 477
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-09-07T20:00:00+00:00",
+      "ultima_vela": "2026-09-07T23:00:00+00:00",
       "n_velas": 745
     },
     {
@@ -266,15 +266,15 @@
       "archivo": "STOXX50E_1d.json",
       "ticker": "^STOXX50E",
       "intervalo": "1d",
-      "ultima_vela": "2026-09-07T00:00:00+02:00",
-      "n_velas": 126
+      "ultima_vela": "2026-09-04T00:00:00+02:00",
+      "n_velas": 125
     },
     {
       "archivo": "STOXX50E_1wk.json",
       "ticker": "^STOXX50E",
       "intervalo": "1wk",
-      "ultima_vela": "2026-09-07T00:00:00+02:00",
-      "n_velas": 262
+      "ultima_vela": "2026-08-31T00:00:00+02:00",
+      "n_velas": 261
     },
     {
       "archivo": "STOXX50E_1mo.json",
@@ -322,22 +322,22 @@
       "archivo": "EURUSD-X_15m.json",
       "ticker": "EURUSD=X",
       "intervalo": "15m",
-      "ultima_vela": "2026-09-07T21:30:00+01:00",
-      "n_velas": 465
+      "ultima_vela": "2026-09-08T00:15:00+01:00",
+      "n_velas": 372
     },
     {
       "archivo": "EURUSD-X_1h.json",
       "ticker": "EURUSD=X",
       "intervalo": "1h",
-      "ultima_vela": "2026-09-07T21:00:00+01:00",
-      "n_velas": 500
+      "ultima_vela": "2026-09-08T00:00:00+01:00",
+      "n_velas": 499
     },
     {
       "archivo": "EURUSD-X_1d.json",
       "ticker": "EURUSD=X",
       "intervalo": "1d",
-      "ultima_vela": "2026-09-07T00:00:00+01:00",
-      "n_velas": 131
+      "ultima_vela": "2026-09-08T00:00:00+01:00",
+      "n_velas": 132
     },
     {
       "archivo": "EURUSD-X_1wk.json",
@@ -4908,14 +4908,14 @@
       "ticker": "EQR",
       "intervalo": "1d",
       "ultima_vela": "2026-08-21T00:00:00-04:00",
-      "n_velas": 14
+      "n_velas": 15
     },
     {
       "archivo": "EQR_1wk.json",
       "ticker": "EQR",
       "intervalo": "1wk",
       "ultima_vela": "2026-08-17T00:00:00-04:00",
-      "n_velas": 5
+      "n_velas": 6
     },
     {
       "archivo": "EQR_1mo.json",

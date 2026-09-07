@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-09-07T17:35:08.363951+00:00",
+  "generado_utc": "2026-09-07T20:52:31.512731+00:00",
   "total_archivos": 2285,
   "fallos": 15,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-09-07T17:15:00+00:00",
-      "n_velas": 454
+      "ultima_vela": "2026-09-07T20:45:00+00:00",
+      "n_velas": 468
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-09-07T17:00:00+00:00",
+      "ultima_vela": "2026-09-07T20:00:00+00:00",
       "n_velas": 745
     },
     {
@@ -190,7 +190,7 @@
       "ticker": "^VIX",
       "intervalo": "1h",
       "ultima_vela": "2026-09-07T10:00:00-05:00",
-      "n_velas": 293
+      "n_velas": 289
     },
     {
       "archivo": "VIX_1d.json",
@@ -322,14 +322,14 @@
       "archivo": "EURUSD-X_15m.json",
       "ticker": "EURUSD=X",
       "intervalo": "15m",
-      "ultima_vela": "2026-09-07T18:15:00+01:00",
-      "n_velas": 452
+      "ultima_vela": "2026-09-07T21:30:00+01:00",
+      "n_velas": 465
     },
     {
       "archivo": "EURUSD-X_1h.json",
       "ticker": "EURUSD=X",
       "intervalo": "1h",
-      "ultima_vela": "2026-09-07T18:00:00+01:00",
+      "ultima_vela": "2026-09-07T21:00:00+01:00",
       "n_velas": 500
     },
     {

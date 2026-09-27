@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-09-27T16:37:39.972483+00:00",
+  "generado_utc": "2026-09-27T21:03:11.751623+00:00",
   "total_archivos": 2283,
   "fallos": 17,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-09-27T16:30:00+00:00",
-      "n_velas": 451
+      "ultima_vela": "2026-09-27T20:45:00+00:00",
+      "n_velas": 468
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-09-27T16:00:00+00:00",
+      "ultima_vela": "2026-09-27T20:00:00+00:00",
       "n_velas": 745
     },
     {
@@ -295,7 +295,7 @@
       "ticker": "DX-Y.NYB",
       "intervalo": "1h",
       "ultima_vela": "2026-09-25T16:00:00-04:00",
-      "n_velas": 481
+      "n_velas": 477
     },
     {
       "archivo": "DX-Y-NYB_1d.json",
@@ -336,7 +336,7 @@
       "archivo": "EURUSD-X_1d.json",
       "ticker": "EURUSD=X",
       "intervalo": "1d",
-      "ultima_vela": "2026-09-26T00:00:00+01:00",
+      "ultima_vela": "2026-09-27T00:00:00+01:00",
       "n_velas": 134
     },
     {
@@ -365,7 +365,7 @@
       "ticker": "GC=F",
       "intervalo": "1h",
       "ultima_vela": "2026-09-25T16:00:00-04:00",
-      "n_velas": 461
+      "n_velas": 457
     },
     {
       "archivo": "GC-F_1d.json",
@@ -400,7 +400,7 @@
       "ticker": "SI=F",
       "intervalo": "1h",
       "ultima_vela": "2026-09-25T16:00:00-04:00",
-      "n_velas": 462
+      "n_velas": 458
     },
     {
       "archivo": "SI-F_1d.json",
@@ -435,7 +435,7 @@
       "ticker": "CL=F",
       "intervalo": "1h",
       "ultima_vela": "2026-09-25T16:00:00-04:00",
-      "n_velas": 459
+      "n_velas": 455
     },
     {
       "archivo": "CL-F_1d.json",
@@ -995,7 +995,7 @@
       "ticker": "NG=F",
       "intervalo": "1h",
       "ultima_vela": "2026-09-25T16:00:00-04:00",
-      "n_velas": 462
+      "n_velas": 458
     },
     {
       "archivo": "NG-F_1d.json",

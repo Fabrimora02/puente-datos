@@ -1,1650 +1,1654 @@
 {
-  "generado_utc": "2026-09-29T00:33:05.184060+00:00",
-  "n_activos_con_fecha": 411,
+  "generado_utc": "2026-09-30T12:09:46.870941+00:00",
+  "n_activos_con_fecha": 412,
   "eventos": {
     "SM": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "CVE": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "EXC": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "GPRE": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "AAL.L": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "MMM": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "ABT": {
       "proxima_fecha": "2026-10-14",
-      "dias_restantes": 15
+      "dias_restantes": 14
     },
     "ACN": {
       "proxima_fecha": "2026-10-01",
-      "dias_restantes": 2
+      "dias_restantes": 1
     },
     "AES": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "AFL": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "A": {
       "proxima_fecha": "2026-11-25",
-      "dias_restantes": 57
+      "dias_restantes": 56
     },
     "ABNB": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "AKAM": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ALB": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "ALGN": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "ALLE": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "LNT": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "MO": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "AMCR": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "AEE": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "AEP": {
-      "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "proxima_fecha": "2026-10-28",
+      "dias_restantes": 28
     },
     "AIG": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "AMT": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "AWK": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "APH": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "APA": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "APO": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "ACGL": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "ADM": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "ARES": {
-      "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "proxima_fecha": "2026-10-29",
+      "dias_restantes": 29
     },
     "ANET": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "T": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "ATO": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "AVB": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "AVY": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "BKR": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "BALL": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "BAC": {
       "proxima_fecha": "2026-10-14",
-      "dias_restantes": 15
+      "dias_restantes": 14
     },
     "BAX": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "BDX": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "BBY": {
       "proxima_fecha": "2026-11-24",
-      "dias_restantes": 56
+      "dias_restantes": 55
     },
     "TECH": {
       "proxima_fecha": "2026-11-09",
-      "dias_restantes": 41
+      "dias_restantes": 40
     },
     "BX": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "XYZ": {
       "proxima_fecha": "2026-11-09",
-      "dias_restantes": 41
+      "dias_restantes": 40
     },
     "BNY": {
       "proxima_fecha": "2026-10-15",
-      "dias_restantes": 16
+      "dias_restantes": 15
     },
     "BSX": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "BMY": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "BR": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "BRO": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "BG": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "BXP": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "CHRW": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "CPT": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "CCL": {
-      "proxima_fecha": "2026-09-29",
-      "dias_restantes": 0
+      "proxima_fecha": "2026-12-18",
+      "dias_restantes": 79
     },
     "CARR": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "CVNA": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "CBRE": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "CDW": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "CNC": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "CNP": {
-      "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "proxima_fecha": "2026-10-27",
+      "dias_restantes": 27
     },
     "CF": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "SCHW": {
       "proxima_fecha": "2026-10-15",
-      "dias_restantes": 16
+      "dias_restantes": 15
     },
     "CHTR": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "CVX": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "CMG": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "CHD": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "CINF": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "CSCO": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "C": {
       "proxima_fecha": "2026-10-13",
-      "dias_restantes": 14
+      "dias_restantes": 13
     },
     "CFG": {
       "proxima_fecha": "2026-10-16",
-      "dias_restantes": 17
+      "dias_restantes": 16
     },
     "CLX": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "CMS": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "KO": {
-      "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "proxima_fecha": "2026-10-27",
+      "dias_restantes": 27
     },
     "CTSH": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "COIN": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "CL": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "CMCSA": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "COP": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ED": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "STZ": {
       "proxima_fecha": "2026-10-06",
-      "dias_restantes": 7
+      "dias_restantes": 6
     },
     "COO": {
       "proxima_fecha": "2026-09-09",
-      "dias_restantes": -20
+      "dias_restantes": -21
     },
     "CPRT": {
       "proxima_fecha": "2026-11-19",
-      "dias_restantes": 51
+      "dias_restantes": 50
     },
     "GLW": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "CTVA": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "CSGP": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "CRH": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "CCI": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "CSX": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "CVS": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "DVA": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "DECK": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "DAL": {
       "proxima_fecha": "2026-10-09",
-      "dias_restantes": 10
+      "dias_restantes": 9
     },
     "DVN": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "DXCM": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "FANG": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "DLR": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "DG": {
       "proxima_fecha": "2026-08-27",
-      "dias_restantes": -33
+      "dias_restantes": -34
     },
     "DLTR": {
       "proxima_fecha": "2026-08-27",
-      "dias_restantes": -33
+      "dias_restantes": -34
     },
     "D": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "DOW": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "DHI": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "DTE": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "DUK": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "DD": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "EBAY": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "ECHO": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "EIX": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "EW": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "EMR": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "ETR": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "EOG": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "EQT": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "EFX": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "EQR": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "EL": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "EVRG": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ES": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "EXE": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "EXPD": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "EXR": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "XOM": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "FAST": {
       "proxima_fecha": "2026-10-14",
-      "dias_restantes": 15
+      "dias_restantes": 14
     },
     "FDXF": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "FIS": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "FITB": {
       "proxima_fecha": "2026-10-19",
-      "dias_restantes": 20
+      "dias_restantes": 19
     },
     "FE": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "FISV": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "FLEX": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "F": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "FTNT": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "FTV": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "FOXA": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "FOX": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "BEN": {
       "proxima_fecha": "2026-11-06",
-      "dias_restantes": 38
+      "dias_restantes": 37
     },
     "FCX": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "IT": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "GEHC": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "GEN": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "GIS": {
       "proxima_fecha": "2026-12-23",
-      "dias_restantes": 85
+      "dias_restantes": 84
     },
     "GM": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "GPC": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "GILD": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "GPN": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "GL": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "GDDY": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "HAL": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "HIG": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "HAS": {
-      "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "proxima_fecha": "2026-10-20",
+      "dias_restantes": 20
     },
     "DOC": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "HSY": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "HPE": {
       "proxima_fecha": "2026-09-02",
-      "dias_restantes": -27
+      "dias_restantes": -28
     },
     "HONA": {
-      "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "proxima_fecha": "2026-10-28",
+      "dias_restantes": 28
     },
     "HRL": {
       "proxima_fecha": "2026-08-27",
-      "dias_restantes": -33
+      "dias_restantes": -34
     },
     "HST": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "HPQ": {
       "proxima_fecha": "2026-11-24",
-      "dias_restantes": 56
+      "dias_restantes": 55
     },
     "HBAN": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "INCY": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "IR": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "INTC": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "IBKR": {
       "proxima_fecha": "2026-10-15",
-      "dias_restantes": 16
+      "dias_restantes": 15
     },
     "ICE": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "IFF": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "IP": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "IVZ": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "INVH": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "IRM": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "JKHY": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "J": {
       "proxima_fecha": "2026-11-19",
-      "dias_restantes": 51
+      "dias_restantes": 50
     },
     "JCI": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "KVUE": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "KDP": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "KEY": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "KMB": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "KIM": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "KMI": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "KKR": {
-      "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "proxima_fecha": "2026-11-09",
+      "dias_restantes": 40
     },
     "KLAC": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "KHC": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "KR": {
       "proxima_fecha": "2026-12-03",
-      "dias_restantes": 65
+      "dias_restantes": 64
     },
     "LVS": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "LDOS": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "LEN": {
       "proxima_fecha": "2026-12-15",
-      "dias_restantes": 77
+      "dias_restantes": 76
     },
     "LYV": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "L": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "LULU": {
       "proxima_fecha": "2026-09-03",
-      "dias_restantes": -26
+      "dias_restantes": -27
     },
     "LYB": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "MRSH": {
       "proxima_fecha": "2026-10-15",
-      "dias_restantes": 16
+      "dias_restantes": 15
     },
     "MAS": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "MKC": {
       "proxima_fecha": "2026-10-01",
-      "dias_restantes": 2
+      "dias_restantes": 1
     },
     "MDT": {
       "proxima_fecha": "2026-11-17",
-      "dias_restantes": 49
+      "dias_restantes": 48
     },
     "MRK": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "MET": {
       "proxima_fecha": "2026-11-09",
-      "dias_restantes": 41
+      "dias_restantes": 40
     },
     "MGM": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "MCHP": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "MAA": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "MRNA": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "MDLZ": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "MNST": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "NDAQ": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "NTAP": {
       "proxima_fecha": "2026-12-01",
-      "dias_restantes": 63
+      "dias_restantes": 62
     },
     "NFLX": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "NEM": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "NEE": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "NKE": {
       "proxima_fecha": "2026-10-01",
-      "dias_restantes": 2
+      "dias_restantes": 1
     },
     "NI": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "NTRS": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "NRG": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ORLY": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "OXY": {
       "proxima_fecha": "2026-11-09",
-      "dias_restantes": 41
+      "dias_restantes": 40
     },
     "OMC": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "ON": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "OKE": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "ORCL": {
       "proxima_fecha": "2026-12-10",
-      "dias_restantes": 72
+      "dias_restantes": 71
     },
     "OTIS": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "PCAR": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "PLTR": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "PAYX": {
       "proxima_fecha": "2026-12-18",
-      "dias_restantes": 80
+      "dias_restantes": 79
     },
     "PYPL": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "PNR": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "PEP": {
       "proxima_fecha": "2026-10-08",
-      "dias_restantes": 9
+      "dias_restantes": 8
     },
     "PFE": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "PCG": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "PM": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "PNW": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "PPG": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "PPL": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "PFG": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "PG": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "PLD": {
       "proxima_fecha": "2026-10-15",
-      "dias_restantes": 16
+      "dias_restantes": 15
     },
     "PRU": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "PEG": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "PTC": {
       "proxima_fecha": "2026-11-11",
-      "dias_restantes": 43
+      "dias_restantes": 42
     },
     "PHM": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "QCOM": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "Q": {
       "proxima_fecha": "2026-11-16",
-      "dias_restantes": 48
+      "dias_restantes": 47
     },
     "RJF": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "O": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "REG": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "RF": {
       "proxima_fecha": "2026-10-16",
-      "dias_restantes": 17
+      "dias_restantes": 16
     },
     "RVTY": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "HOOD": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "ROL": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "CRM": {
       "proxima_fecha": "2026-12-02",
-      "dias_restantes": 64
+      "dias_restantes": 63
     },
     "SBAC": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "SLB": {
       "proxima_fecha": "2026-10-23",
-      "dias_restantes": 24
+      "dias_restantes": 23
     },
     "SRE": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "NOW": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "SWKS": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "SJM": {
       "proxima_fecha": "2026-11-24",
-      "dias_restantes": 56
+      "dias_restantes": 55
     },
     "SW": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "SOLV": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "SO": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "LUV": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "SWK": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "SBUX": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "STT": {
       "proxima_fecha": "2026-10-14",
-      "dias_restantes": 15
+      "dias_restantes": 14
     },
     "SMCI": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "SYF": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "SYY": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "TMUS": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "TROW": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "TPR": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "TGT": {
       "proxima_fecha": "2026-11-18",
-      "dias_restantes": 50
+      "dias_restantes": 49
     },
     "TXT": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "TJX": {
       "proxima_fecha": "2026-11-18",
-      "dias_restantes": 50
+      "dias_restantes": 49
     },
     "TKO": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "TSCO": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "TRMB": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "TFC": {
       "proxima_fecha": "2026-10-16",
-      "dias_restantes": 17
+      "dias_restantes": 16
     },
     "TSN": {
       "proxima_fecha": "2026-11-16",
-      "dias_restantes": 48
+      "dias_restantes": 47
     },
     "USB": {
       "proxima_fecha": "2026-10-15",
-      "dias_restantes": 16
+      "dias_restantes": 15
     },
     "UBER": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "UDR": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "UAL": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "UPS": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "UHS": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "VTR": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "VLTO": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "VRSK": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "VZ": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "VTRS": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "VICI": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "VST": {
-      "proxima_fecha": "2026-11-05",
+      "proxima_fecha": "2026-11-06",
       "dias_restantes": 37
     },
     "WRB": {
       "proxima_fecha": "2026-10-19",
-      "dias_restantes": 20
+      "dias_restantes": 19
     },
     "WMT": {
       "proxima_fecha": "2026-11-19",
-      "dias_restantes": 51
+      "dias_restantes": 50
     },
     "DIS": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "WBD": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "WEC": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "WFC": {
       "proxima_fecha": "2026-10-13",
-      "dias_restantes": 14
+      "dias_restantes": 13
     },
     "WY": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "WMB": {
       "proxima_fecha": "2026-11-02",
-      "dias_restantes": 34
+      "dias_restantes": 33
     },
     "WDAY": {
       "proxima_fecha": "2026-08-27",
-      "dias_restantes": -33
+      "dias_restantes": -34
     },
     "WYNN": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "XEL": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "XYL": {
-      "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "proxima_fecha": "2026-10-27",
+      "dias_restantes": 27
     },
     "YUM": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "ZBH": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ZTS": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "AOS": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "ARE": {
       "proxima_fecha": "2026-10-26",
-      "dias_restantes": 27
+      "dias_restantes": 26
     },
     "APTV": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "BLDR": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "FDS": {
       "proxima_fecha": "2026-09-30",
-      "dias_restantes": 1
+      "dias_restantes": 0
     },
     "FRT": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "HSIC": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "PODD": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "TAP": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "MOS": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "NWSA": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "NWS": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "NCLH": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "PSKY": {
       "proxima_fecha": "2026-11-09",
-      "dias_restantes": 41
+      "dias_restantes": 40
     },
     "TTD": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "SAN.MC": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "BBVA.MC": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "IBE.MC": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "ITX.MC": {
       "proxima_fecha": "2026-12-02",
-      "dias_restantes": 64
+      "dias_restantes": 63
     },
     "TEF.MC": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "REP.MC": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "AMS.MC": {
       "proxima_fecha": "2026-11-06",
-      "dias_restantes": 38
+      "dias_restantes": 37
     },
     "FER.MC": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "AENA.MC": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "CLNX.MC": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ELE.MC": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "ENG.MC": {
       "proxima_fecha": "2026-10-20",
-      "dias_restantes": 21
+      "dias_restantes": 20
     },
     "NTGY.MC": {
       "proxima_fecha": "2026-07-22",
-      "dias_restantes": -69
+      "dias_restantes": -70
     },
     "RED.MC": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "ACS.MC": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "ACX.MC": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "MTS.MC": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "CABK.MC": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "SAB.MC": {
-      "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "proxima_fecha": "2026-10-29",
+      "dias_restantes": 29
     },
     "BKT.MC": {
       "proxima_fecha": "2026-10-22",
-      "dias_restantes": 23
+      "dias_restantes": 22
     },
     "UNI.MC": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "MAP.MC": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "GRF.MC": {
       "proxima_fecha": "2026-07-28",
-      "dias_restantes": -63
+      "dias_restantes": -64
     },
     "ANA.MC": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "COL.MC": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "MRL.MC": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "LOG.MC": {
       "proxima_fecha": "2026-11-06",
-      "dias_restantes": 38
+      "dias_restantes": 37
     },
     "IAG.MC": {
       "proxima_fecha": "2026-11-06",
-      "dias_restantes": 38
+      "dias_restantes": 37
     },
     "MEL.MC": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "SCYR.MC": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ANE.MC": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "SLR.MC": {
       "proxima_fecha": "2026-11-16",
-      "dias_restantes": 48
+      "dias_restantes": 47
     },
     "FDR.MC": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "PUIG.MC": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "SAP.DE": {
       "proxima_fecha": "2026-10-21",
-      "dias_restantes": 22
+      "dias_restantes": 21
     },
     "SIE.DE": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "ALV.DE": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "DTE.DE": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "MUV2.DE": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "BAS.DE": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "BAYN.DE": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "BMW.DE": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "MBG.DE": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "VOW3.DE": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "DBK.DE": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "CBK.DE": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "DHL.DE": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "RWE.DE": {
       "proxima_fecha": "2026-11-11",
-      "dias_restantes": 43
+      "dias_restantes": 42
     },
     "EOAN.DE": {
       "proxima_fecha": "2026-11-11",
-      "dias_restantes": 43
+      "dias_restantes": 42
     },
     "IFX.DE": {
       "proxima_fecha": "2026-11-10",
-      "dias_restantes": 42
+      "dias_restantes": 41
     },
     "ADS.DE": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "HEN3.DE": {
       "proxima_fecha": "2026-11-10",
-      "dias_restantes": 42
+      "dias_restantes": 41
     },
     "BEI.DE": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "CON.DE": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "HEI.DE": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "MRK.DE": {
       "proxima_fecha": "2026-11-12",
-      "dias_restantes": 44
+      "dias_restantes": 43
     },
     "FRE.DE": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "RHM.DE": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ZAL.DE": {
       "proxima_fecha": "2026-11-03",
-      "dias_restantes": 35
+      "dias_restantes": 34
     },
     "SY1.DE": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "SHL.DE": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "1COV.DE": {
       "proxima_fecha": "2026-07-31",
-      "dias_restantes": -60
+      "dias_restantes": -61
     },
     "QIA.DE": {
       "proxima_fecha": "2026-11-04",
-      "dias_restantes": 36
+      "dias_restantes": 35
     },
     "P911.DE": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "PAH3.DE": {
       "proxima_fecha": "2026-08-07",
-      "dias_restantes": -53
+      "dias_restantes": -54
     },
     "BNR.DE": {
       "proxima_fecha": "2026-11-11",
-      "dias_restantes": 43
+      "dias_restantes": 42
     },
     "MTX.DE": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "HNR1.DE": {
       "proxima_fecha": "2026-11-09",
-      "dias_restantes": 41
+      "dias_restantes": 40
     },
     "ENR.DE": {
       "proxima_fecha": "2026-11-11",
-      "dias_restantes": 43
+      "dias_restantes": 42
     },
     "TTE.PA": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "SAN.PA": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "BNP.PA": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "ACA.PA": {
       "proxima_fecha": "2026-10-30",
-      "dias_restantes": 31
+      "dias_restantes": 30
     },
     "GLE.PA": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "AI.PA": {
       "proxima_fecha": "2026-07-28",
-      "dias_restantes": -63
+      "dias_restantes": -64
     },
     "SU.PA": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "CAP.PA": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "DG.PA": {
       "proxima_fecha": "2026-07-29",
-      "dias_restantes": -62
+      "dias_restantes": -63
     },
     "SGO.PA": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "VIE.PA": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "ENGI.PA": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "ORA.PA": {
       "proxima_fecha": "2026-10-27",
-      "dias_restantes": 28
+      "dias_restantes": 27
     },
     "RNO.PA": {
       "proxima_fecha": "2026-07-29",
-      "dias_restantes": -62
+      "dias_restantes": -63
     },
     "STLAP.PA": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "HO.PA": {
       "proxima_fecha": "2026-07-23",
-      "dias_restantes": -68
+      "dias_restantes": -69
     },
     "AIR.PA": {
       "proxima_fecha": "2026-10-28",
-      "dias_restantes": 29
+      "dias_restantes": 28
     },
     "BN.PA": {
       "proxima_fecha": "2026-07-29",
-      "dias_restantes": -62
+      "dias_restantes": -63
     },
     "RI.PA": {
       "proxima_fecha": "2026-08-27",
-      "dias_restantes": -33
+      "dias_restantes": -34
     },
     "KER.PA": {
       "proxima_fecha": "2026-07-28",
-      "dias_restantes": -63
+      "dias_restantes": -64
     },
     "LR.PA": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
+    },
+    "PUB.PA": {
+      "proxima_fecha": "2026-07-16",
+      "dias_restantes": -76
     },
     "VIV.PA": {
       "proxima_fecha": "2026-09-03",
-      "dias_restantes": -26
+      "dias_restantes": -27
     },
     "TEP.PA": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "EN.PA": {
       "proxima_fecha": "2026-11-05",
-      "dias_restantes": 37
+      "dias_restantes": 36
     },
     "URW.PA": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     },
     "ERF.PA": {
       "proxima_fecha": "2026-07-23",
-      "dias_restantes": -68
+      "dias_restantes": -69
     },
     "ALO.PA": {
       "proxima_fecha": "2026-11-17",
-      "dias_restantes": 49
+      "dias_restantes": 48
     },
     "STMPA.PA": {
       "proxima_fecha": "2026-10-29",
-      "dias_restantes": 30
+      "dias_restantes": 29
     },
     "WLN.PA": {
       "proxima_fecha": "2026-07-30",
-      "dias_restantes": -61
+      "dias_restantes": -62
     }
   }
 }

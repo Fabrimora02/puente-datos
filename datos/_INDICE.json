@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-10-10T12:06:21.520394+00:00",
+  "generado_utc": "2026-10-10T18:19:12.325460+00:00",
   "total_archivos": 2281,
   "fallos": 19,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-10-10T12:00:00+00:00",
-      "n_velas": 433
+      "ultima_vela": "2026-10-10T18:00:00+00:00",
+      "n_velas": 457
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-10-10T12:00:00+00:00",
+      "ultima_vela": "2026-10-10T18:00:00+00:00",
       "n_velas": 721
     },
     {
@@ -10991,7 +10991,7 @@
       "ticker": "WBD",
       "intervalo": "1mo",
       "ultima_vela": "2026-10-01T00:00:00-04:00",
-      "n_velas": 239
+      "n_velas": 256
     },
     {
       "archivo": "WEC_15m.json",
@@ -11859,7 +11859,7 @@
       "ticker": "PSKY",
       "intervalo": "1mo",
       "ultima_vela": "2026-10-01T00:00:00-04:00",
-      "n_velas": 383
+      "n_velas": 251
     },
     {
       "archivo": "TTD_15m.json",

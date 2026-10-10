@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-10-10T18:19:12.325460+00:00",
+  "generado_utc": "2026-10-10T23:24:01.944018+00:00",
   "total_archivos": 2281,
   "fallos": 19,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-10-10T18:00:00+00:00",
-      "n_velas": 457
+      "ultima_vela": "2026-10-10T23:15:00+00:00",
+      "n_velas": 478
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-10-10T18:00:00+00:00",
+      "ultima_vela": "2026-10-10T23:00:00+00:00",
       "n_velas": 721
     },
     {
@@ -11859,7 +11859,7 @@
       "ticker": "PSKY",
       "intervalo": "1mo",
       "ultima_vela": "2026-10-01T00:00:00-04:00",
-      "n_velas": 251
+      "n_velas": 385
     },
     {
       "archivo": "TTD_15m.json",
@@ -15639,7 +15639,7 @@
       "ticker": "EXV3.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-10-09T00:00:00+02:00",
-      "n_velas": 131
+      "n_velas": 130
     },
     {
       "archivo": "EXV3-DE_1wk.json",
@@ -15674,7 +15674,7 @@
       "ticker": "EXV4.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-10-09T00:00:00+02:00",
-      "n_velas": 131
+      "n_velas": 130
     },
     {
       "archivo": "EXV4-DE_1wk.json",
@@ -15709,7 +15709,7 @@
       "ticker": "EXH4.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-10-09T00:00:00+02:00",
-      "n_velas": 131
+      "n_velas": 130
     },
     {
       "archivo": "EXH4-DE_1wk.json",
@@ -15849,7 +15849,7 @@
       "ticker": "EXH3.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-10-09T00:00:00+02:00",
-      "n_velas": 131
+      "n_velas": 130
     },
     {
       "archivo": "EXH3-DE_1wk.json",
@@ -15884,7 +15884,7 @@
       "ticker": "EXV8.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-10-09T00:00:00+02:00",
-      "n_velas": 131
+      "n_velas": 130
     },
     {
       "archivo": "EXV8-DE_1wk.json",
@@ -15919,7 +15919,7 @@
       "ticker": "EXI5.DE",
       "intervalo": "1d",
       "ultima_vela": "2026-10-09T00:00:00+02:00",
-      "n_velas": 131
+      "n_velas": 130
     },
     {
       "archivo": "EXI5-DE_1wk.json",

@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-10-17T23:52:53.518411+00:00",
+  "generado_utc": "2026-10-18T03:27:21.767672+00:00",
   "total_archivos": 2279,
   "fallos": 21,
   "archivos": [
@@ -77,29 +77,29 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-10-17T23:45:00+00:00",
-      "n_velas": 480
+      "ultima_vela": "2026-10-18T03:15:00+00:00",
+      "n_velas": 398
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-10-17T23:00:00+00:00",
+      "ultima_vela": "2026-10-18T03:00:00+00:00",
       "n_velas": 721
     },
     {
       "archivo": "BTC-USD_1d.json",
       "ticker": "BTC-USD",
       "intervalo": "1d",
-      "ultima_vela": "2026-10-17T00:00:00+00:00",
-      "n_velas": 184
+      "ultima_vela": "2026-10-18T00:00:00+00:00",
+      "n_velas": 183
     },
     {
       "archivo": "BTC-USD_1wk.json",
       "ticker": "BTC-USD",
       "intervalo": "1wk",
       "ultima_vela": "2026-10-12T00:00:00+00:00",
-      "n_velas": 262
+      "n_velas": 261
     },
     {
       "archivo": "BTC-USD_1mo.json",
@@ -288,7 +288,7 @@
       "ticker": "DX-Y.NYB",
       "intervalo": "15m",
       "ultima_vela": "2026-10-16T16:45:00-04:00",
-      "n_velas": 432
+      "n_velas": 431
     },
     {
       "archivo": "DX-Y-NYB_1h.json",

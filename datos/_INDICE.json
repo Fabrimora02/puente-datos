@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-10-18T08:40:18.549463+00:00",
+  "generado_utc": "2026-10-18T13:52:47.233027+00:00",
   "total_archivos": 2279,
   "fallos": 21,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-10-18T08:30:00+00:00",
-      "n_velas": 419
+      "ultima_vela": "2026-10-18T13:45:00+00:00",
+      "n_velas": 440
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-10-18T08:00:00+00:00",
+      "ultima_vela": "2026-10-18T13:00:00+00:00",
       "n_velas": 721
     },
     {
@@ -295,7 +295,7 @@
       "ticker": "DX-Y.NYB",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 485
+      "n_velas": 480
     },
     {
       "archivo": "DX-Y-NYB_1d.json",
@@ -365,7 +365,7 @@
       "ticker": "GC=F",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 476
+      "n_velas": 471
     },
     {
       "archivo": "GC-F_1d.json",
@@ -400,7 +400,7 @@
       "ticker": "SI=F",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 474
+      "n_velas": 469
     },
     {
       "archivo": "SI-F_1d.json",
@@ -435,7 +435,7 @@
       "ticker": "CL=F",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 474
+      "n_velas": 469
     },
     {
       "archivo": "CL-F_1d.json",
@@ -987,15 +987,15 @@
       "archivo": "NG-F_15m.json",
       "ticker": "NG=F",
       "intervalo": "15m",
-      "ultima_vela": "2026-10-15T16:45:00-04:00",
-      "n_velas": 253
+      "ultima_vela": "2026-10-16T16:45:00-04:00",
+      "n_velas": 345
     },
     {
       "archivo": "NG-F_1h.json",
       "ticker": "NG=F",
       "intervalo": "1h",
-      "ultima_vela": "2026-10-15T16:00:00-04:00",
-      "n_velas": 454
+      "ultima_vela": "2026-10-16T16:00:00-04:00",
+      "n_velas": 472
     },
     {
       "archivo": "NG-F_1d.json",

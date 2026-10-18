@@ -1,7 +1,7 @@
 {
-  "generado_utc": "2026-10-18T17:10:35.793159+00:00",
-  "total_archivos": 2279,
-  "fallos": 21,
+  "generado_utc": "2026-10-18T20:18:06.600222+00:00",
+  "total_archivos": 2280,
+  "fallos": 20,
   "archivos": [
     {
       "archivo": "SM_15m.json",
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-10-18T17:00:00+00:00",
-      "n_velas": 453
+      "ultima_vela": "2026-10-18T20:00:00+00:00",
+      "n_velas": 465
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-10-18T17:00:00+00:00",
+      "ultima_vela": "2026-10-18T20:00:00+00:00",
       "n_velas": 721
     },
     {
@@ -295,7 +295,7 @@
       "ticker": "DX-Y.NYB",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 476
+      "n_velas": 473
     },
     {
       "archivo": "DX-Y-NYB_1d.json",
@@ -336,7 +336,7 @@
       "archivo": "EURUSD-X_1d.json",
       "ticker": "EURUSD=X",
       "intervalo": "1d",
-      "ultima_vela": "2026-10-17T00:00:00+01:00",
+      "ultima_vela": "2026-10-18T00:00:00+01:00",
       "n_velas": 133
     },
     {
@@ -365,7 +365,7 @@
       "ticker": "GC=F",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 467
+      "n_velas": 464
     },
     {
       "archivo": "GC-F_1d.json",
@@ -400,7 +400,7 @@
       "ticker": "SI=F",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 465
+      "n_velas": 462
     },
     {
       "archivo": "SI-F_1d.json",
@@ -435,7 +435,7 @@
       "ticker": "CL=F",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 465
+      "n_velas": 462
     },
     {
       "archivo": "CL-F_1d.json",
@@ -995,7 +995,7 @@
       "ticker": "NG=F",
       "intervalo": "1h",
       "ultima_vela": "2026-10-16T16:00:00-04:00",
-      "n_velas": 468
+      "n_velas": 465
     },
     {
       "archivo": "NG-F_1d.json",
@@ -11838,14 +11838,21 @@
       "ticker": "PSKY",
       "intervalo": "1d",
       "ultima_vela": "2026-10-16T00:00:00-04:00",
-      "n_velas": 17
+      "n_velas": 16
+    },
+    {
+      "archivo": "PSKY_1wk.json",
+      "ticker": "PSKY",
+      "intervalo": "1wk",
+      "ultima_vela": "2026-10-12T00:00:00-04:00",
+      "n_velas": 6
     },
     {
       "archivo": "PSKY_1mo.json",
       "ticker": "PSKY",
       "intervalo": "1mo",
       "ultima_vela": "2026-10-01T00:00:00-04:00",
-      "n_velas": 385
+      "n_velas": 4
     },
     {
       "archivo": "TTD_15m.json",

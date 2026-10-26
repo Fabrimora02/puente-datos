@@ -341,11 +341,218 @@ def evaluar_sector(velas_diarias_etf, velas_semanales_etf):
         'pasa_gate_tecnico': gate_tecnico,
         'pasa_gate_score': gate_score,
     }
-    
-    
+
+
+# ============================================================
+# 10. CARRIL "EMERGENTES" (V15.31 propuesta) — arranques de onda 1/3
+#     y posibles finales de onda 2, ANTES de que la tendencia madure.
+#     Capa 1 NO cuenta ondas: solo detecta condiciones objetivas y
+#     deja el candidato etiquetado para que Capa 2 (Elliott) decida.
+# ============================================================
+
+def _rsi_wilder(c: np.ndarray, n: int = 14) -> np.ndarray:
+    """RSI de Wilder sobre un array de cierres. Devuelve array del mismo
+    largo (los n primeros valores son NaN)."""
+    out = np.full(len(c), np.nan)
+    if len(c) <= n:
+        return out
+    d = np.diff(c)
+    up, dn = np.where(d > 0, d, 0.0), np.where(d < 0, -d, 0.0)
+    au, ad = up[:n].mean(), dn[:n].mean()
+    out[n] = 100 - 100 / (1 + au / ad) if ad > 0 else 100.0
+    for i in range(n, len(d)):
+        au = (au * (n - 1) + up[i]) / n
+        ad = (ad * (n - 1) + dn[i]) / n
+        out[i + 1] = 100 - 100 / (1 + au / ad) if ad > 0 else 100.0
+    return out
+
+
+def _rango_semanal_pct(w: list) -> np.ndarray:
+    """Rango verdadero semanal como % del cierre (proxy de ATR% semanal)."""
+    c = cierres(w)
+    h = np.array([x["h"] for x in w])
+    l = np.array([x["l"] for x in w])
+    tr = np.maximum(h[1:] - l[1:],
+                     np.maximum(np.abs(h[1:] - c[:-1]), np.abs(l[1:] - c[:-1])))
+    return tr / c[1:] * 100
+
+
+def detectar_cruce_ma30(velas_semanales: list, ventana: int = 3) -> dict | None:
+    """Cruce alcista RECIENTE de la media de 30 semanas.
+    Condiciones: cierre actual > MA30 Y hubo al menos un cierre semanal
+    <= MA30 en las ultimas `ventana` semanas (el cruce es reciente).
+    Devuelve semanas desde el cruce y ratio de volumen de la semana del
+    cruce frente a su media de 10 semanas previas."""
+    w = limpiar_velas(velas_semanales)
+    if len(w) < 45:
+        return None
+    c = cierres(w)
+    vol = np.array([x.get("v", 0) or 0 for x in w], dtype=float)
+    ma30 = np.convolve(c, np.ones(30) / 30, mode="valid")   # alineada con c[29:]
+    c_al, n = c[29:], len(ma30)
+    if c_al[-1] <= ma30[-1]:
+        return {"cruce_reciente": False}
+    semanas = None
+    for k in range(1, ventana + 1):          # k = semanas atras del cierre previo
+        if c_al[-1 - k] <= ma30[-1 - k]:
+            semanas = k
+            break
+    if semanas is None:
+        return {"cruce_reciente": False}
+    i_cruce = len(c) - semanas               # primera semana sobre la MA30
+    base = vol[max(0, i_cruce - 10):i_cruce]
+    vol_ratio = float(vol[i_cruce:].max() / base.mean()) if base.size and base.mean() > 0 else None
+    # compresion PREVIA al cruce: rango semanal 8 sem. vs media 26 sem. previas
+    rng = _rango_semanal_pct(w)              # rng[j] corresponde a semana j+1
+    previo = rng[:i_cruce - 1]
+    compresion = None
+    if len(previo) >= 34:
+        compresion = float(previo[-8:].mean() / previo[-34:-8].mean())
+    return {"cruce_reciente": True, "semanas_desde_cruce": semanas,
+            "vol_ratio_cruce": vol_ratio, "compresion_previa": compresion,
+            "pendiente_ma30": float((ma30[-1] - ma30[-5]) / ma30[-5] * 100)}
+
+
+def detectar_final_onda2(velas_semanales: list, amplitud_min: float = 25.0) -> dict | None:
+    """Candidato a FINAL DE ONDA 2 (solo condiciones de zona, sin etiquetar):
+    - Existe un tramo alcista previo (minimo -> maximo) de >= amplitud_min % en 52 sem.
+    - El precio retrocede entre 50% y 78,6% de ese tramo, sin romper el minimo.
+    - Divergencia alcista de RSI(14) semanal: minimo reciente (ultimas 10 sem.)
+      igual o mas bajo en precio (<=3%) que el minimo previo, con RSI mas alto.
+    - Compresion de rango semanal: 8 sem. recientes < 0,8x la media de las 26 previas."""
+    w = limpiar_velas(velas_semanales)
+    if len(w) < 60:
+        return None
+    c = cierres(w)
+    c52 = c[-52:]
+    i_hi = int(np.argmax(c52))
+    if i_hi == 0:
+        return {"zona_onda2": False}
+    i_lo = int(np.argmin(c52[:i_hi]))
+    lo, hi, last = c52[i_lo], c52[i_hi], c[-1]
+    amplitud = (hi / lo - 1) * 100
+    if amplitud < amplitud_min or i_hi >= len(c52) - 2:
+        return {"zona_onda2": False, "amplitud_tramo": float(amplitud)}
+    retro = float((hi - last) / (hi - lo))
+    en_zona = 0.50 <= retro <= 0.786 and last > lo
+    # divergencia RSI
+    rsi = _rsi_wilder(c)
+    seg_rec = c[-10:]
+    i2 = len(c) - 10 + int(np.argmin(seg_rec))
+    seg_prev = c[-40:-10]
+    i1 = len(c) - 40 + int(np.argmin(seg_prev))
+    diverge = bool(c[i2] <= c[i1] * 1.03 and rsi[i2] > rsi[i1]
+                   and not np.isnan(rsi[i2]) and not np.isnan(rsi[i1]))
+    rng = _rango_semanal_pct(w)
+    compresion = float(rng[-8:].mean() / rng[-34:-8].mean()) if len(rng) >= 34 else None
+    comprime = bool(compresion is not None and compresion < 0.8)
+    return {"zona_onda2": bool(en_zona), "retroceso": retro,
+            "amplitud_tramo": float(amplitud), "divergencia_rsi": diverge,
+            "compresion": compresion, "compresion_ok": comprime}
+
+
+def clasificar_etiquetas_emergente(velas_diarias: list, velas_semanales: list,
+                                   velas_benchmark_sem: list) -> dict:
+    """Etiquetas INFORMATIVAS (no descartan, solo ordenan la lista):
+    - climax_volumen: en las ultimas 8 sem. hay una vela con volumen > 2x su media
+      de 10 sem. y cierre en el tercio superior de su rango.
+    - fuerza_relativa_gira: ratio activo/benchmark (13 sem.) cruza al alza su
+      propia media de 10 sem. o marca minimo mas alto frente a hace 26 sem.
+    - id_fip: calidad de trayectoria de las ultimas 63 sesiones (menor = mas continua)."""
+    w = limpiar_velas(velas_semanales)
+    b = limpiar_velas(velas_benchmark_sem)
+    et = {"climax_volumen": None, "fuerza_relativa_gira": None,
+          "id_fip": calcular_fip(velas_diarias)}
+    if len(w) >= 20:
+        vol = np.array([x.get("v", 0) or 0 for x in w], dtype=float)
+        clim = False
+        for j in range(len(w) - 8, len(w)):
+            base = vol[max(0, j - 10):j]
+            if base.size and base.mean() > 0 and vol[j] > 2 * base.mean():
+                rng = w[j]["h"] - w[j]["l"]
+                if rng > 0 and (w[j]["c"] - w[j]["l"]) / rng >= 2 / 3:
+                    clim = True
+        et["climax_volumen"] = clim
+    n = min(len(w), len(b))
+    if n >= 40:
+        ratio = cierres(w)[-n:] / cierres(b)[-n:]
+        ma10 = np.convolve(ratio, np.ones(10) / 10, mode="valid")
+        et["fuerza_relativa_gira"] = bool(ratio[-1] > ma10[-1] and ratio[-4] <= ma10[-4]
+                                          or ratio[-13:].min() > ratio[-39:-26].min())
+    return et
+
+
+def evaluar_emergente(velas_diarias: list, velas_semanales: list,
+                      velas_benchmark_sem: list, precio_max: float = 200.0,
+                      liquidez_min: float = 20e6, dias_evento: int | None = None,
+                      exigir_absoluto: bool = True, aplicar_koncorde: bool = True) -> dict:
+    """Carril EMERGENTES. Mismos filtros duros que Confirmados (precio, liquidez,
+    evento <5 dias, momentum absoluto, Koncorde) PERO sustituye la Etapa 2 de
+    Weinstein (que por definicion llega tarde) por una de dos condiciones de entrada:
+      Tipo A 'arranque' : cruce MA30 en <=3 sem. + volumen del cruce > 1,0x media
+                          + compresion previa < 0,8.
+      Tipo B 'final onda 2': zona 50-78,6% + (divergencia RSI O compresion).
+                          (Con las tres exigidas a la vez, 0 de 90 candidatos
+                          en la prueba del 26-oct-2026: demasiado estricto.)
+    Insiders, institucional, valoracion y sector lider siguen en el bloque web
+    y en evaluar_sector(), igual que para Confirmados."""
+    r = {"carril": "EMERGENTE", "descartado_en": None, "tipo": None}
+    sc = calcular_score(velas_diarias)
+    if sc is None:
+        r["descartado_en"] = "sin datos suficientes (precio)"
+        return r
+    r.update(sc)
+    if sc["precio"] >= precio_max:
+        r["descartado_en"] = f"precio >= {precio_max}"
+        return r
+    liq = calcular_liquidez_diaria(velas_diarias)
+    r["liquidez_dia"] = liq
+    if liq is not None and liq < liquidez_min:
+        r["descartado_en"] = f"liquidez < {liquidez_min/1e6:.0f}M/dia"
+        return r
+    if dias_evento is not None and 0 <= dias_evento < 5:
+        r["descartado_en"] = f"resultados en {dias_evento} dias"
+        return r
+    r["dias_evento"] = dias_evento
+    r["evento_fiable"] = (dias_evento is None) or (dias_evento >= 0)
+    dual = calcular_momentum_dual(velas_semanales, velas_benchmark_sem)
+    r["momentum_dual"] = dual
+    if exigir_absoluto and (dual is None or not dual["pasa"]):
+        r["descartado_en"] = "momentum absoluto <= 0"
+        return r
+    if aplicar_koncorde:
+        konc = calcular_koncorde_proxy(velas_semanales)
+        r["koncorde"] = konc
+        if konc is None or not konc["pasa_capa1"]:
+            r["descartado_en"] = "Koncorde: alarma de distribucion"
+            return r
+    cruce = detectar_cruce_ma30(velas_semanales)
+    onda2 = detectar_final_onda2(velas_semanales)
+    r["cruce_ma30"], r["final_onda2"] = cruce, onda2
+    tipo_a = bool(cruce and cruce.get("cruce_reciente")
+                  and (cruce.get("vol_ratio_cruce") or 0) >= 1.0
+                  and cruce.get("compresion_previa") is not None
+                  and cruce["compresion_previa"] < 0.8)
+    tipo_b = bool(onda2 and onda2.get("zona_onda2")
+                  and (onda2.get("divergencia_rsi") or onda2.get("compresion_ok")))
+    if not (tipo_a or tipo_b):
+        r["descartado_en"] = "sin condicion de arranque ni de final de onda 2"
+        return r
+    r["tipo"] = "A arranque (cruce MA30)" if tipo_a else "B final de onda 2"
+    if tipo_a and tipo_b:
+        r["tipo"] = "A+B"
+    r["etiquetas"] = clasificar_etiquetas_emergente(velas_diarias, velas_semanales,
+                                                   velas_benchmark_sem)
+    r["atr_pct"] = calcular_atr_pct(velas_diarias)
+    r["beta"] = calcular_beta(velas_semanales, velas_benchmark_sem)
+    r["sobrevive_bloque_puente"] = True
+    return r
+
+
 if __name__ == "__main__":
     print(__doc__)
     print("Funciones disponibles:")
     for nombre in sorted(dir()):
         if not nombre.startswith("_") and callable(eval(nombre)):
             print(f"  - {nombre}")
+            

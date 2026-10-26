@@ -290,6 +290,7 @@ def evaluar_candidato(velas_diarias: list, velas_semanales: list,
         resultado["descartado_en"] = f"resultados en {dias_evento} dias"
         return resultado
     resultado["dias_evento"] = dias_evento
+    resultado["evento_fiable"] = (dias_evento is None) or (dias_evento >= 0)
 
     dual = calcular_momentum_dual(velas_semanales, velas_benchmark_sem)
     if dual is None or not dual["pasa"]:
@@ -322,6 +323,26 @@ def evaluar_candidato(velas_diarias: list, velas_semanales: list,
     return resultado
 
 
+def evaluar_sector(velas_diarias_etf, velas_semanales_etf):
+    """Evalúa un sector (ETF) exigiendo Score positivo Y Etapa 2 Weinstein
+    con momentum positivo a la vez. Solo si pasa las dos es 'ganador' real."""
+    sc = calcular_score(velas_diarias_etf)
+    wein = calcular_etapa_weinstein(velas_semanales_etf)
+    if sc is None or wein is None:
+        return {'ganador': False, 'motivo': 'datos insuficientes'}
+
+    gate_tecnico = wein['pasa_capa1']
+    gate_score = sc['score'] > 0
+
+    return {
+        'ganador': gate_tecnico and gate_score,
+        'score': sc['score'],
+        'etapa_weinstein': wein['etapa'],
+        'pasa_gate_tecnico': gate_tecnico,
+        'pasa_gate_score': gate_score,
+    }
+    
+    
 if __name__ == "__main__":
     print(__doc__)
     print("Funciones disponibles:")

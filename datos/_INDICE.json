@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-10-31T21:10:04.045307+00:00",
+  "generado_utc": "2026-11-01T00:48:33.785862+00:00",
   "total_archivos": 2283,
   "fallos": 17,
   "archivos": [
@@ -77,36 +77,36 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-10-31T21:00:00+00:00",
-      "n_velas": 469
+      "ultima_vela": "2026-11-01T00:30:00+00:00",
+      "n_velas": 387
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-10-31T21:00:00+00:00",
+      "ultima_vela": "2026-11-01T00:00:00+00:00",
       "n_velas": 745
     },
     {
       "archivo": "BTC-USD_1d.json",
       "ticker": "BTC-USD",
       "intervalo": "1d",
-      "ultima_vela": "2026-10-31T00:00:00+00:00",
-      "n_velas": 185
+      "ultima_vela": "2026-11-01T00:00:00+00:00",
+      "n_velas": 184
     },
     {
       "archivo": "BTC-USD_1wk.json",
       "ticker": "BTC-USD",
       "intervalo": "1wk",
       "ultima_vela": "2026-10-26T00:00:00+00:00",
-      "n_velas": 262
+      "n_velas": 261
     },
     {
       "archivo": "BTC-USD_1mo.json",
       "ticker": "BTC-USD",
       "intervalo": "1mo",
-      "ultima_vela": "2026-10-01T00:00:00+00:00",
-      "n_velas": 146
+      "ultima_vela": "2026-11-01T00:00:00+00:00",
+      "n_velas": 147
     },
     {
       "archivo": "GSPC_15m.json",

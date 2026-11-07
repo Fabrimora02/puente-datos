@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-11-07T12:38:09.001177+00:00",
+  "generado_utc": "2026-11-07T18:33:12.370839+00:00",
   "total_archivos": 2279,
   "fallos": 21,
   "archivos": [
@@ -77,14 +77,14 @@
       "archivo": "BTC-USD_15m.json",
       "ticker": "BTC-USD",
       "intervalo": "15m",
-      "ultima_vela": "2026-11-07T12:30:00+00:00",
-      "n_velas": 435
+      "ultima_vela": "2026-11-07T18:15:00+00:00",
+      "n_velas": 458
     },
     {
       "archivo": "BTC-USD_1h.json",
       "ticker": "BTC-USD",
       "intervalo": "1h",
-      "ultima_vela": "2026-11-07T12:00:00+00:00",
+      "ultima_vela": "2026-11-07T18:00:00+00:00",
       "n_velas": 745
     },
     {
@@ -6882,7 +6882,7 @@
       "ticker": "KVUE",
       "intervalo": "1mo",
       "ultima_vela": "2026-10-01T00:00:00-04:00",
-      "n_velas": 31
+      "n_velas": 42
     },
     {
       "archivo": "KDP_15m.json",
@@ -15751,7 +15751,7 @@
       "ticker": "EXV6.DE",
       "intervalo": "15m",
       "ultima_vela": "2026-11-06T17:15:00+01:00",
-      "n_velas": 116
+      "n_velas": 115
     },
     {
       "archivo": "EXV6-DE_1h.json",
